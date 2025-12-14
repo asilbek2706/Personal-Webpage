@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+<!-- header section -->
+    <header class="main-header">
+        <h1 class="main-heading">Welcome to My Personal Webpage</h1>
+    </header>
+<!-- /header section -->
+
+    <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+
+<!-- about section -->
+    <section class="main">
+        <h1 class="same-sections">About Me</h1>
+        <p>Hello! I am a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+<!-- /about section -->
+
+<!-- project section -->
+    <section class="main">
+        <h1 class="same-sections">Projects</h1>
+        <ul class="projects-list">
+            <li class="project-link">
+                Project 1: <a href="#">Link to project</a>
+            </li>
+            <li class="project-link">
+                Project 2: <a href="#">Link to project</a>
+            </li>
+        </ul>
+    </section>
+<!-- /project section -->
+
+<!-- contact section -->
+    <section class="main-contact">
+        <h1 class="same-sections">Contact</h1>
+        <form action="contact.php" method="GET" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" width="100%"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+<!-- /contact section -->
+
+<!-- footer section -->
+    <footer>
+        &copy; 2024 My Personal Webpage
+    </footer>
+<!-- /footer section -->
+
+</body>
+</html>
